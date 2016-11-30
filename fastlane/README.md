@@ -37,7 +37,7 @@ fastlane tests workspace:NAME.xcworkspace
 
 * **scheme**: The scheme into the workspace to execute.
 
-  * **environment_variable**: DG_SCHEME
+  * **environment_variable**: DG_TESTABLE_SCHEME
 
   * **type**: string
 
@@ -206,7 +206,7 @@ import_from_git(
 
   * **optional**: true
 
-* **scheme**: The scheme into the workspace to execute.
+* **scheme**: The scheme into the workspace to test.
 
   * **environment_variable**: DG_SCHEME
 
@@ -280,7 +280,7 @@ This lane must be run only on the **master** branch
 
 * **token**: The GitHub access token use to push the release to GitHub, check how to generate access token [here](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
 
-  * **environment_variable**: DG_GITHUB_TOKEN
+  * **environment_variable**: GITHUB_TOKEN
 
   * **type**: string
 
@@ -288,7 +288,7 @@ This lane must be run only on the **master** branch
 
 * **repository_name**: The GitHub repository name such as 'company/project'
 
-  * **environment_variable**: DG_GITHUB_REPOSITORY_NAME
+  * **environment_variable**: GITHUB_REPOSITORY_NAME
 
   * **type**: string
 
