@@ -16,7 +16,6 @@ ruby install.rb
 * [Fastlane](https://fastlane.tools/) : The [Fastfile](fastlane/Fastfile) is configure to download [Digipolitan Travis lanes](https://github.com/Digipolitan/fastlane-ios-travis-framework)
 * [Swift Package Manager](https://github.com/apple/swift-package-manager) : The [Package.swift](Package.swift) created without dependencies
 * [CocoaPods](https://cocoapods.org/) : The [Podfile](Podfile) and the [Podspec](DGFrameworkTemplate.podspec) are created without dependencies
-* [Carthage](https://github.com/Carthage/Carthage) : The [Cartfile](Cartfile) is created without dependencies
 * [SwifLint](https://github.com/realm/SwiftLint) : The [.swiftlint.yml](.swiftlint.yml) is created and a run script is added to **Xcode Build Phases** to run for each build
 * [RubyGems](https://rubygems.org/) : The [Gemfile](Gemfile) contains ruby dependencies such as Fastlane, run `bundle install` to install these dependencies into your machine
 * [Homebrew](http://brew.sh/index_fr.html) : The [Brewfile](Brewfile) contains non-ruby dependencies such as git-flow, run `brew bundle` to install these dependencies into your machine
