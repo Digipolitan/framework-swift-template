@@ -1,0 +1,11 @@
+import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-ios-common'
+)
+import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-ios-framework',
+  branch: 'develop'
+)
+import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-ios-travis-framework',
+  branch: 'develop'
+)
