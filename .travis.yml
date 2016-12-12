@@ -13,6 +13,7 @@ before_install:
   - gem install bundler
   - bundle install && brew bundle
 script:
-  - bundle exec fastlane travis_framework_tests
+  - bundle exec fastlane ci_framework_begin
+  - bundle exec fastlane ci_framework_tests
 after_success:
-  - bundle exec fastlane travis_framework_after_success_action
+  - bundle exec fastlane ci_framework_deploy
