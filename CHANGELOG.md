@@ -1,7 +1,15 @@
-#Change Log
+# Change Log
 
 All notable changes to this project will be documented in this file.
 `framework-swift-template` adheres to [Semantic Versioning](http://semver.org/).
+
+---
+
+## [1.0.4](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.0.4)
+
+Bumped release version 1.0.4
+Merge tag 'v1.0.3' into develop
+Release version 1.0.3 v1.0.3
 
 ---
 

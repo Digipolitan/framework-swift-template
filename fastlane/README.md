@@ -273,14 +273,6 @@ fastlane ci_framework_begin product_name:DGFrameworkTemplate
 
   * **optional**: true
 
-* **skip_slack**: Skip slack notification even if a SLACK_URL is define.
-
-  * **type**: boolean
-
-  * **optional**: true
-
-  * **default_value**: false
-
 #### Environment variables
 
 * **SLACK_URL**: The slack Hook URL
@@ -337,14 +329,6 @@ import_from_git(
   * **type**: string
 
   * **optional**: true
-
-* **skip_slack**: Skip slack notification even if a SLACK_URL is define.
-
-  * **type**: boolean
-
-  * **optional**: true
-
-  * **default_value**: false
 
 #### Environment variables
 
@@ -418,14 +402,6 @@ import_from_git(
   * **type**: string
 
   * **optional**: true
-
-* **skip_slack**: Skip slack notification even if a SLACK_URL is define.
-
-  * **type**: boolean
-
-  * **optional**: true
-
-  * **default_value**: false
 
 * **skip_cocoapods**: Skip cocoapods deployment
 
