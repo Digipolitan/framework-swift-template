@@ -1,5 +1,5 @@
 import_from_git(
-  url: 'https://github.com/Digipolitan/fastlane-ios-common',
+  url: 'https://github.com/Digipolitan/fastlane-common',
   branch: 'develop'
 )
 import_from_git(
@@ -7,6 +7,6 @@ import_from_git(
   branch: 'develop'
 )
 import_from_git(
-  url: 'https://github.com/Digipolitan/fastlane-ios-travis-framework',
+  url: 'https://github.com/Digipolitan/fastlane-ios-ci-framework',
   branch: 'develop'
 )
