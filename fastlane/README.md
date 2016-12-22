@@ -5,6 +5,26 @@ fastlane documentation
 sudo gem install fastlane
 ```
 # Available Actions
+### ensure_version_availability
+```
+fastlane ensure_version_availability
+```
+
+### prepare_for_release
+```
+fastlane prepare_for_release
+```
+
+### appfile_init
+```
+fastlane appfile_init
+```
+
+### bootstrap
+```
+fastlane bootstrap
+```
+
 ### start_framework_release
 ```
 fastlane start_framework_release
@@ -92,9 +112,9 @@ fastlane start_framework_release version:4.0.9
   * **optional**: true
 
 
-### submit_framework_release
+### publish_framework_release
 ```
-fastlane submit_framework_release
+fastlane publish_framework_release
 ```
 Submit the framework release version on your git repository and close the branch
 
