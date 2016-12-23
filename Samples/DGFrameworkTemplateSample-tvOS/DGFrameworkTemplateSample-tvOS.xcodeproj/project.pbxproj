@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EC24C2B3D06B4CDA1D36CE7 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F04D0709DA0D6A2D69C509 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework */; };
 		A30D64901E0D7B2A00A3CE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D648F1E0D7B2A00A3CE45 /* AppDelegate.swift */; };
 		A30D64971E0D7B2A00A3CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D64961E0D7B2A00A3CE45 /* Assets.xcassets */; };
 		A30D649F1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D649E1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework */; };
 		A30D64A01E0D7BA200A3CE45 /* DGFrameworkTemplate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30D649E1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A30D64A51E0D7BC200A3CE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D64A31E0D7BC200A3CE45 /* ViewController.swift */; };
 		A30D64A61E0D7BC200A3CE45 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30D64A41E0D7BC200A3CE45 /* ViewController.xib */; };
+		CF5EB796856C55230098B366 /* Pods_DGFrameworkTemplateSample_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5D11F835CD3CA7BB6F03DF /* Pods_DGFrameworkTemplateSample_tvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		066D1A22246FF0D2CA34D179 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		37F6C77DDB9960488AEFDF89 /* Pods-DGFrameworkTemplateSample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-tvOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		834A6462DDEA44C90F6C4159 /* Pods-DGFrameworkTemplateSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-tvOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		86F04D0709DA0D6A2D69C509 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5D11F835CD3CA7BB6F03DF /* Pods_DGFrameworkTemplateSample_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateSample_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D648C1E0D7B2A00A3CE45 /* DGFrameworkTemplateSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DGFrameworkTemplateSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D648F1E0D7B2A00A3CE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A30D64961E0D7B2A00A3CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +44,7 @@
 		A30D649E1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D64A31E0D7BC200A3CE45 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A30D64A41E0D7BC200A3CE45 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		B59EBA76E4EE0948B3D0809A /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,18 +53,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30D649F1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework in Frameworks */,
+				CF5EB796856C55230098B366 /* Pods_DGFrameworkTemplateSample_tvOS.framework in Frameworks */,
+				9EC24C2B3D06B4CDA1D36CE7 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7406AAB64BCC5F8B0262648E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37F6C77DDB9960488AEFDF89 /* Pods-DGFrameworkTemplateSample-tvOS.debug.xcconfig */,
+				834A6462DDEA44C90F6C4159 /* Pods-DGFrameworkTemplateSample-tvOS.release.xcconfig */,
+				066D1A22246FF0D2CA34D179 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.debug.xcconfig */,
+				B59EBA76E4EE0948B3D0809A /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A30D64831E0D7B2A00A3CE45 = {
 			isa = PBXGroup;
 			children = (
 				A30D648E1E0D7B2A00A3CE45 /* DGFrameworkTemplateSample-tvOS */,
 				A30D64A21E0D7BA600A3CE45 /* Frameworks */,
 				A30D648D1E0D7B2A00A3CE45 /* Products */,
+				7406AAB64BCC5F8B0262648E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				A30D649E1E0D7BA200A3CE45 /* DGFrameworkTemplate.framework */,
+				8D5D11F835CD3CA7BB6F03DF /* Pods_DGFrameworkTemplateSample_tvOS.framework */,
+				86F04D0709DA0D6A2D69C509 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,10 +119,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30D649B1E0D7B2A00A3CE45 /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateSample-tvOS" */;
 			buildPhases = (
+				C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */,
 				A30D64881E0D7B2A00A3CE45 /* Sources */,
 				A30D64891E0D7B2A00A3CE45 /* Frameworks */,
 				A30D648A1E0D7B2A00A3CE45 /* Resources */,
 				A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */,
+				6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */,
+				7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +182,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A30D64881E0D7B2A00A3CE45 /* Sources */ = {
@@ -266,6 +341,7 @@
 		};
 		A30D649C1E0D7B2A00A3CE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066D1A22246FF0D2CA34D179 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -281,6 +357,7 @@
 		};
 		A30D649D1E0D7B2A00A3CE45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59EBA76E4EE0948B3D0809A /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

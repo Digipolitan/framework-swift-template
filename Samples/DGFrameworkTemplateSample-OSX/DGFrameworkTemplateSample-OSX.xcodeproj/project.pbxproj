@@ -12,6 +12,7 @@
 		A30D64B91E0D7CD800A3CE45 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A30D64B71E0D7CD800A3CE45 /* MainMenu.xib */; };
 		A30D64C11E0D7CF700A3CE45 /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30D64C01E0D7CF700A3CE45 /* DGFrameworkTemplate.framework */; };
 		A30D64C21E0D7CF700A3CE45 /* DGFrameworkTemplate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A30D64C01E0D7CF700A3CE45 /* DGFrameworkTemplate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E6AB76D88E9A9F1CD2C24B92 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D8B23B95151094B7B70291 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,12 +30,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69D8B23B95151094B7B70291 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D64B01E0D7CD800A3CE45 /* DGFrameworkTemplateSample-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DGFrameworkTemplateSample-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D64B31E0D7CD800A3CE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A30D64B51E0D7CD800A3CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30D64B81E0D7CD800A3CE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A30D64BA1E0D7CD800A3CE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30D64C01E0D7CF700A3CE45 /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D8C80BD94FA2E59421A73F /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		EA55CC5F1F5FEA67845CE4A8 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30D64C11E0D7CF700A3CE45 /* DGFrameworkTemplate.framework in Frameworks */,
+				E6AB76D88E9A9F1CD2C24B92 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +60,7 @@
 				A30D64B21E0D7CD800A3CE45 /* DGFrameworkTemplateSample-OSX */,
 				A30D64C41E0D7CFC00A3CE45 /* Frameworks */,
 				A30D64B11E0D7CD800A3CE45 /* Products */,
+				C4C1FE8B7A78FF436256D19F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,8 +87,18 @@
 			isa = PBXGroup;
 			children = (
 				A30D64C01E0D7CF700A3CE45 /* DGFrameworkTemplate.framework */,
+				69D8B23B95151094B7B70291 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_OSX.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4C1FE8B7A78FF436256D19F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA55CC5F1F5FEA67845CE4A8 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.debug.xcconfig */,
+				C0D8C80BD94FA2E59421A73F /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,10 +108,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30D64BD1E0D7CD800A3CE45 /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateSample-OSX" */;
 			buildPhases = (
+				83A2DF472B042143BC4CA525 /* [CP] Check Pods Manifest.lock */,
 				A30D64AC1E0D7CD800A3CE45 /* Sources */,
 				A30D64AD1E0D7CD800A3CE45 /* Frameworks */,
 				A30D64AE1E0D7CD800A3CE45 /* Resources */,
 				A30D64C31E0D7CF700A3CE45 /* Embed Frameworks */,
+				ECAA84BA0EDB990281411393 /* [CP] Embed Pods Frameworks */,
+				BD59DCF677724A97A0EC1AE5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A2DF472B042143BC4CA525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD59DCF677724A97A0EC1AE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAA84BA0EDB990281411393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A30D64AC1E0D7CD800A3CE45 /* Sources */ = {
@@ -272,6 +339,7 @@
 		};
 		A30D64BE1E0D7CD800A3CE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA55CC5F1F5FEA67845CE4A8 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -286,6 +354,7 @@
 		};
 		A30D64BF1E0D7CD800A3CE45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D8C80BD94FA2E59421A73F /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-OSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

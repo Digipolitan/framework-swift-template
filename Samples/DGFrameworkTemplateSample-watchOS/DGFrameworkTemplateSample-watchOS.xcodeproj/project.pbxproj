@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85B6C159ECAEE33F229BF22D /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BE2B4E3595007C23F873C4 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework */; };
 		A30D641F1E0D759D00A3CE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30D641E1E0D759D00A3CE45 /* AppDelegate.swift */; };
 		A30D64261E0D759D00A3CE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30D64251E0D759D00A3CE45 /* Assets.xcassets */; };
 		A30D64291E0D759D00A3CE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30D64271E0D759D00A3CE45 /* LaunchScreen.storyboard */; };
@@ -78,6 +79,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		20FCAB03B6200D30C3A47298 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BE2B4E3595007C23F873C4 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D641B1E0D759D00A3CE45 /* DGFrameworkTemplateSample-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DGFrameworkTemplateSample-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D641E1E0D759D00A3CE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A30D64251E0D759D00A3CE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		A30D64561E0D767500A3CE45 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		A30D64591E0D76AC00A3CE45 /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30D645E1E0D76BC00A3CE45 /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DGFrameworkTemplate.framework; path = "../../build/Debug-watchos/DGFrameworkTemplate.framework"; sourceTree = "<group>"; };
+		A6D95A1004BF24223A8776C1 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30D645A1E0D76AC00A3CE45 /* DGFrameworkTemplate.framework in Frameworks */,
+				85B6C159ECAEE33F229BF22D /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30D645F1E0D76BC00A3CE45 /* DGFrameworkTemplate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52843FD4AF9803B6730F8B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +138,7 @@
 				A30D64401E0D759D00A3CE45 /* DGFrameworkTemplateSample-watchOS WatchKit Extension */,
 				A30D645D1E0D76BC00A3CE45 /* Frameworks */,
 				A30D641C1E0D759D00A3CE45 /* Products */,
+				CA455FD33E9026D23FA3F63E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +191,7 @@
 			children = (
 				A30D64611E0D76DB00A3CE45 /* watchOS */,
 				A30D64601E0D76D600A3CE45 /* iOS */,
+				A1BE2B4E3595007C23F873C4 /* Pods_DGFrameworkTemplateSample_DGFrameworkTemplateSample_watchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,6 +212,15 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
+		CA455FD33E9026D23FA3F63E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FCAB03B6200D30C3A47298 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.debug.xcconfig */,
+				A6D95A1004BF24223A8776C1 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,11 +228,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30D64521E0D759D00A3CE45 /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateSample-watchOS" */;
 			buildPhases = (
+				E2538F3EA116A9FD50336DEF /* [CP] Check Pods Manifest.lock */,
 				A30D64171E0D759D00A3CE45 /* Sources */,
 				A30D64181E0D759D00A3CE45 /* Frameworks */,
 				A30D64191E0D759D00A3CE45 /* Resources */,
 				A30D64511E0D759D00A3CE45 /* Embed Watch Content */,
 				A30D645C1E0D76AC00A3CE45 /* Embed Frameworks */,
+				140E695A0845EF0F82FE4B2D /* [CP] Embed Pods Frameworks */,
+				2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +253,7 @@
 			buildPhases = (
 				A30D642B1E0D759D00A3CE45 /* Resources */,
 				A30D644D1E0D759D00A3CE45 /* Embed App Extensions */,
+				E52843FD4AF9803B6730F8B5 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +358,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140E695A0845EF0F82FE4B2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS/Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2538F3EA116A9FD50336DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A30D64171E0D759D00A3CE45 /* Sources */ = {
@@ -553,6 +628,7 @@
 		};
 		A30D64531E0D759D00A3CE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FCAB03B6200D30C3A47298 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -567,6 +643,7 @@
 		};
 		A30D64541E0D759D00A3CE45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D95A1004BF24223A8776C1 /* Pods-DGFrameworkTemplateSample-DGFrameworkTemplateSample-watchOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 582762VK3P;
