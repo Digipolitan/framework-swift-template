@@ -11,6 +11,9 @@
       location = "group:Samples/DGFrameworkTemplateSample-watchOS/DGFrameworkTemplateSample-watchOS.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Samples/DGFrameworkTempalteSample-tvOS/DGFrameworkTempalteSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
