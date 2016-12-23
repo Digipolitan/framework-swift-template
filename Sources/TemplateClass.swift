@@ -5,6 +5,8 @@
  */
 open class TemplateClass {
 
+    public init() {
+    }
 }
 
 extension TemplateClass: CustomStringConvertible {
