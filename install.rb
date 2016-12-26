@@ -7,6 +7,9 @@ Digipolitan::Xcodeproj.rename_project()
 Digipolitan::UI.success("--- Step: Fastlane ---")
 if Digipolitan::UI.confirm("Would you like to configure fastlane now ?")
   system("fastlane bootstrap")
+  if File.exists?("./Podfile")
+    system("pod install")
+  end
 end
 Digipolitan::UI.success("--- Step: Clear installer ---")
 files_to_clear = ["CHANGELOG.md", "CODE_OF_CONDUCT.md", "CONTRIBUTING.md", "LICENSE", "README.md"]
