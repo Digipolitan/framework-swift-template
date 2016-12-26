@@ -1,7 +1,7 @@
 workspace 'DGFrameworkTemplate.xcworkspace'
 
 ## Framework targets
-abstract_target "DGFrameworkTemplate" do
+abstract_target "Frameworks" do
   use_frameworks!
 
   target 'DGFrameworkTemplate-iOS' do
@@ -22,7 +22,7 @@ abstract_target "DGFrameworkTemplate" do
 end
 
 ## Tests targets
-abstract_target "DGFrameworkTemplateTests" do
+abstract_target "Tests" do
   use_frameworks!
 
   target 'DGFrameworkTemplateTests-iOS' do
@@ -39,7 +39,7 @@ abstract_target "DGFrameworkTemplateTests" do
 end
 
 ## Samples targets
-abstract_target "DGFrameworkTemplateSample" do
+abstract_target "Samples" do
   use_frameworks!
 
   target 'DGFrameworkTemplateSample-iOS' do
@@ -47,9 +47,15 @@ abstract_target "DGFrameworkTemplateSample" do
     platform :ios, '8.0'
   end
 
-  target 'DGFrameworkTemplateSample-watchOS' do
+  abstract_target "watchOS" do
     project 'Samples/DGFrameworkTemplateSample-watchOS/DGFrameworkTemplateSample-watchOS'
-    platform :watchos, '2.0'
+
+    target 'DGFrameworkTemplateSample-watchOS' do
+      platform :ios, '8.0'
+    end
+    target 'DGFrameworkTemplateSample-watchOS WatchKit Extension' do
+      platform :watchos, '2.0'
+    end
   end
 
   target 'DGFrameworkTemplateSample-tvOS' do
