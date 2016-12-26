@@ -11,6 +11,7 @@ notifications:
   email: false
 before_install:
   - gem install bundler
+  - brew update
   - bundle install && brew bundle
 script:
   - bundle exec fastlane ci_framework_begin

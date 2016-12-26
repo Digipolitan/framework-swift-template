@@ -8,6 +8,7 @@ Digipolitan::UI.success("--- Step: Fastlane ---")
 if Digipolitan::UI.confirm("Would you like to configure fastlane now ?")
   system("fastlane bootstrap")
   if File.exists?("./Podfile")
+    system("pod deintegrate")
     system("pod install")
   end
 end

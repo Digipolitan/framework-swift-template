@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0F4693548C561C4CA589F954 /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF393177F6409E026FE4CE /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework */; };
-		2FF3537D950466DB164ADBAF /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30AF0766007D8750B42B961 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework */; };
 		352F8E02629FE8F0B93D657D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D22C66650C0EAD00C5F223D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework */; };
 		68000714EB04FE12144495AC /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2490F3AD368BDE4C67BD69BD /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework */; };
 		88767D1BDF119333B2969F6B /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A573CBDD2737F8B259724 /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework */; };
 		9C037F3F63588F2D4D9E5F44 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB48CB187F54CDB76B300FC4 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework */; };
-		9D2BFCE44248E96EBF585FB1 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD6A252A8693F5BEC42FF95 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DGFrameworkTemplate.framework */; };
 		A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		A3169DE81DE06FD100BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
@@ -30,7 +28,6 @@
 		A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		D3B1029A523BCB0FD5FB4B3C /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60028764ED4CF3D145870D /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework */; };
 		F860DB1B689E3A2137B1FA0A /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A180F0BFFE100DA1971D335 /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework */; };
-		FB44B00F6E9EB03F1123BCBC /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743CE3B5536FD68FEE393434 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,7 +158,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169DBA1DE05E8300BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
-				FB44B00F6E9EB03F1123BCBC /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework in Frameworks */,
 				D3B1029A523BCB0FD5FB4B3C /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169DF81DE0718900BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
-				9D2BFCE44248E96EBF585FB1 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */,
 				352F8E02629FE8F0B93D657D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169E151DE072C800BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
-				2FF3537D950466DB164ADBAF /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework in Frameworks */,
 				68000714EB04FE12144495AC /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
