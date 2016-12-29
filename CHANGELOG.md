@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.0](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.0)
+
+Update the travis.yml
+Adds digipolitan tools
+Adds sample projects (iOS, tvOS, wathcOS, OSX)
+Update the installer
+
+---
+
 ## [1.0.4](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.0.4)
 
 Bumped release version 1.0.4
