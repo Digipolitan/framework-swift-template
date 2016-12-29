@@ -14,7 +14,6 @@ before_install:
   - brew update
   - bundle install && brew bundle
 script:
-  - bundle exec fastlane ci_framework_begin
-  - bundle exec fastlane ci_framework_tests
+  - bundle exec fastlane run_tests
 after_success:
   - bundle exec fastlane ci_framework_deploy
