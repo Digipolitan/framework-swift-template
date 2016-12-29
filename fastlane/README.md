@@ -62,9 +62,66 @@ fastlane appfile_init fetch_app_identifier:false
   * **default_value**: true
 
 
-### bootstrap
+### run_tests
 ```
-fastlane bootstrap
+fastlane run_tests
+```
+Build and run all Xcode tests
+
+#### Example:
+
+```
+fastlane tests workspace:NAME.xcworkspace
+```
+
+#### How to install ?
+
+This lane require actions define in [Digipolitan/fastlane-common](https://github.com/Digipolitan/fastlane-common)
+
+```
+import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-common'
+)
+```
+
+#### Options
+
+* __**test_scheme**__: The scheme into the Xcode project to execute, the scheme is required on the CI environement
+
+  * **environment_variable**: TEST_SCHEME
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**xcworkspace**__: The workspace to use.
+
+  * **environment_variable**: XCWORKSPACE
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**xcodeproj**__: The Xcode project to select
+
+  * **environment_variable**: XCODEPROJ
+
+  * **type**: string
+
+  * **optional**: true
+
+#### Environment variables
+
+* __**SLACK_URL**__: The slack Hook URL
+
+  * **type**: string
+
+  * **optional**: true
+
+
+### framework_bootstrap
+```
+fastlane framework_bootstrap
 ```
 Initialize the framework to be use with fastlane
 
@@ -91,9 +148,9 @@ import_from_git(
 
   * **optional**: true
 
-* __**target_version**__: Change to a specific version.
+* __**xcworkspace**__: The Xcode workspace path, if the workspace isn't in your root directory
 
-  * **environment_variable**: TARGET_VERSION
+  * **environment_variable**: XCWORKSPACE
 
   * **type**: string
 
@@ -107,29 +164,13 @@ import_from_git(
 
   * **optional**: true
 
-* __**product_name**__: The framework name, by default retrieve the product name on the .git/config file
+* __**skip_cocoapods**__: Do not prepare the framework to CocoaPods
 
-  * **environment_variable**: PRODUCT_NAME
-
-  * **type**: string
-
-  * **optional**: true
-
-* __**changelog_release_url**__: The release url use by the changelog
-
-  * **environment_variable**: CHANGELOG_RELEASE_URL
+  * **environment_variable**: SKIP_COCOAPODS
 
   * **type**: string
 
-  * **optional**: true
-
-* __**changelog_content**__: The changelog content, by default retrieves commits
-
-  * **environment_variable**: CHANGELOG_CONTENT
-
-  * **type**: string
-
-  * **optional**: true
+  * **default_value**: false
 
 
 ### start_framework_release
@@ -183,6 +224,14 @@ fastlane start_framework_release target_version:4.0.9
   * **type**: string
 
   * **optional**: true
+
+* __**skip_cocoapods**__: Do not prepare the framework to CocoaPods
+
+  * **environment_variable**: SKIP_COCOAPODS
+
+  * **type**: string
+
+  * **default_value**: false
 
 * __**product_name**__: The framework name, by default retrieve the product name on the .git/config file
 
@@ -256,6 +305,30 @@ import_from_git(
   * **type**: string
 
   * **optional**: true
+
+* __**test_scheme**__: The scheme into the Xcode project to execute
+
+  * **environment_variable**: TEST_SCHEME
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**podspec_path**__: The podspec path if specific
+
+  * **environment_variable**: PODSPEC_PATH
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**skip_cocoapods**__: Do not prepare the framework to CocoaPods
+
+  * **environment_variable**: SKIP_COCOAPODS
+
+  * **type**: string
+
+  * **default_value**: false
 
 
 ### framework_deploy_cocoapods
@@ -349,7 +422,7 @@ import_from_git(
 
   * **optional**: false
 
-* __**repository_name**__: The GitHub repository name such as 'company/project'
+* __**github_repository_name**__: The GitHub repository name such as 'company/project'
 
   * **environment_variable**: GITHUB_REPOSITORY_NAME
 
@@ -367,118 +440,26 @@ import_from_git(
 
 * __**skip_carthage**__: Skip the carthage asset to the GitHub release
 
+  * **environment_variable**: SKIP_CARTHAGE
+
   * **type**: boolean
 
   * **default_value**: false
 
 * __**skip_codecov**__: Skip the codecov.io link
 
+  * **environment_variable**: SKIP_CODECOV
+
   * **type**: boolean
 
   * **default_value**: false
-
-
-### ci_framework_begin
-```
-fastlane ci_framework_begin
-```
-Run this lane when the CI environment handle a new build
-
-#### Example:
-
-```
-fastlane ci_framework_begin product_name:DGFrameworkTemplate
-```
-
-#### Options
-
-* **product_name**: The framework name.
-
-  * **environment_variable**: DG_PRODUCT_NAME
-
-  * **type**: string
-
-  * **optional**: true
-
-* **project**: The project to use.
-
-  * **environment_variable**: DG_PROJECT
-
-  * **type**: string
-
-  * **optional**: true
-
-#### Environment variables
-
-* **SLACK_URL**: The slack Hook URL
-
-  * **type**: string
-
-  * **optional**: true
-
-
-### ci_framework_tests
-```
-fastlane ci_framework_tests
-```
-Build and run all tests in the CI environment
-
-#### Example:
-
-```
-fastlane ci_framework_tests workspace:NAME.xcworkspace
-```
-
-#### How to install ?
-
-This lane require actions define in [Digipolitan/fastlane-common](https://github.com/Digipolitan/fastlane-common)
-
-```
-import_from_git(
-  url: 'https://github.com/Digipolitan/fastlane-common'
-)
-```
-
-#### Options
-
-* **workspace**: The workspace to use.
-
-  * **environment_variable**: DG_WORKSPACE
-
-  * **type**: string
-
-  * **optional**: true
-
-* **project**: The project to use.
-
-  * **environment_variable**: DG_PROJECT
-
-  * **type**: string
-
-  * **optional**: true
-
-* **scheme**: The scheme into the workspace to execute.
-
-  * **environment_variable**: DG_SCHEME
-
-  * **type**: string
-
-  * **optional**: true
-
-#### Environment variables
-
-* **SLACK_URL**: The slack Hook URL
-
-  * **type**: string
-
-  * **optional**: true
 
 
 ### ci_framework_deploy
 ```
 fastlane ci_framework_deploy
 ```
-CI deployment lane, do something only on a master branch
+Framework CI deployment lane, do something only on a master branch
 
 Deploy to **github**, **carthage** and **cocoapods**
 
@@ -492,71 +473,83 @@ This lane require actions or lanes define in [Digipolitan/fastlane-ios-framework
 
 ```
 import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-common'
+)
+import_from_git(
+  url: 'https://github.com/Digipolitan/fastlane-ios'
+)
+import_from_git(
   url: 'https://github.com/Digipolitan/fastlane-ios-framework'
 )
 ```
 
 #### Options
 
-* **github_repository_name**: The GitHub repository name such as 'company/project'
+* __**xcodeproj**__: The Xcode project to select.
 
-  * **environment_variable**: DG_GITHUB_REPOSITORY_NAME
-
-  * **type**: string
-
-  * **optional**: true
-
-* **workspace**: The workspace to use.
-
-  * **environment_variable**: DG_WORKSPACE
+  * **environment_variable**: XCODEPROJ
 
   * **type**: string
 
   * **optional**: true
 
-* **project**: The project to use.
+* __**product_name**__: The framework name.
 
-  * **environment_variable**: DG_PROJECT
-
-  * **type**: string
-
-  * **optional**: true
-
-* **scheme**: The scheme into the workspace to execute.
-
-  * **environment_variable**: DG_SCHEME
+  * **environment_variable**: PRODUCT_NAME
 
   * **type**: string
 
   * **optional**: true
 
-* **product_name**: The framework name.
+* __**github_token**__: The GitHub access token use to push the release to GitHub, check how to generate access token [here](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
 
-  * **environment_variable**: DG_PRODUCT_NAME
+  * **environment_variable**: GITHUB_TOKEN
 
   * **type**: string
 
   * **optional**: true
 
-* **skip_cocoapods**: Skip cocoapods deployment
+* __**github_repository_name**__: The GitHub repository name such as 'company/project'
+
+  * **environment_variable**: GITHUB_REPOSITORY_NAME
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**skip_cocoapods**__: Skip cocoapods deployment
+
+  * **environment_variable**: SKIP_COCOAPODS
 
   * **type**: boolean
-
-  * **optional**: true
 
   * **default_value**: false
 
-* **skip_carthage**: Skip carthage deployment
+* __**skip_carthage**__: Skip carthage deployment
+
+  * **environment_variable**: SKIP_CARTHAGE
 
   * **type**: boolean
 
-  * **optional**: true
+  * **default_value**: false
+
+* __**skip_codecov**__: Skip the codecov.io link
+
+  * **environment_variable**: SKIP_CODECOV
+
+  * **type**: boolean
 
   * **default_value**: false
 
 #### Environment variables
 
-* **SLACK_URL**: The slack Hook URL
+* __**SLACK_URL**__: The Slack Hook URL
+
+  * **type**: string
+
+  * **optional**: true
+
+* __**COCOAPODS_TRUNK_TOKEN**__: The CocoaPods access token use to push the release to CocoaPods
 
   * **type**: string
 
