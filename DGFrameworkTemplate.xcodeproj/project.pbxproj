@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1810478DA855864A6A279310 /* Pods_DGFrameworkTemplate_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B7CB5DF5B6229310D4DB75 /* Pods_DGFrameworkTemplate_tvOS.framework */; };
-		3E8AEAC639DBED2A965AB286 /* Pods_DGFrameworkTemplate_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADA5FD5BF0C05BFBE82F7DA /* Pods_DGFrameworkTemplate_watchOS.framework */; };
-		40813137E3B49119812CED13 /* Pods_DGFrameworkTemplate_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3560547AA282DD83A7B33164 /* Pods_DGFrameworkTemplate_iOS.framework */; };
-		83F4F3D69BE0D72AC1607491 /* Pods_DGFrameworkTemplate_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E08F00D082853363E0C2E09 /* Pods_DGFrameworkTemplate_OSX.framework */; };
+		0F4693548C561C4CA589F954 /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CCF393177F6409E026FE4CE /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework */; };
+		352F8E02629FE8F0B93D657D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D22C66650C0EAD00C5F223D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework */; };
+		68000714EB04FE12144495AC /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2490F3AD368BDE4C67BD69BD /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework */; };
+		88767D1BDF119333B2969F6B /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A573CBDD2737F8B259724 /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework */; };
+		9C037F3F63588F2D4D9E5F44 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB48CB187F54CDB76B300FC4 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DGFrameworkTemplate.framework */; };
 		A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		A3169DE81DE06FD100BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
@@ -25,6 +26,8 @@
 		A38EF2CC1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
 		A3EAC50C1DE5FCBA00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
+		D3B1029A523BCB0FD5FB4B3C /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60028764ED4CF3D145870D /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework */; };
+		F860DB1B689E3A2137B1FA0A /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A180F0BFFE100DA1971D335 /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,13 +55,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0264F3297A81061FFEF491EA /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0484FE3ECB5C5B87407ABF2F /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplate_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06096CD81FE6581D44C7545C /* Pods-Framework-DGFrameworkTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-tvOS/Pods-Framework-DGFrameworkTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0EDFB920B5B443552018769A /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		11BF61C70530EAC9576ABAC4 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		14E938AE7A9E60C8AF33C59B /* Pods-Frameworks-DGFrameworkTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-tvOS/Pods-Frameworks-DGFrameworkTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		18F7939B36FDA0910AA59B34 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-watchOS/Pods-Frameworks-DGFrameworkTemplate-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		1D22C66650C0EAD00C5F223D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGFrameworkTemplateTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3A573CBDD2737F8B259724 /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGFrameworkTemplate_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211A41348921FF72C4D8BAD0 /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplate_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2490F3AD368BDE4C67BD69BD /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGFrameworkTemplateTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B167A5B9C9FD8CCB80B9060 /* Pods_Framework_DGFrameworkTemplate_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework_DGFrameworkTemplate_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C064E1B66D05C013A3A276F /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		2CCF393177F6409E026FE4CE /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGFrameworkTemplate_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7B0C277D4DACF59CC3388C /* Pods-Framework-DGFrameworkTemplate-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-iOS/Pods-Framework-DGFrameworkTemplate-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7E721BCA0EF2D4EC0D39DD /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F23369CB12119CE0B4CFCE3 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-watchOS/Pods-Frameworks-DGFrameworkTemplate-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3560547AA282DD83A7B33164 /* Pods_DGFrameworkTemplate_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A895CD0AD6C1CF5AEE8056 /* Pods-DGFrameworkTemplate-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-iOS/Pods-DGFrameworkTemplate-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		41F127338C7A850CD2EEF4F5 /* Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-iOS/Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4452FBA22E4D14DCF45C7DE4 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		486CAA196CD9ED1BD4FB196C /* Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-tvOS/Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4912F871B52ECCD87699C50A /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplate_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A180F0BFFE100DA1971D335 /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGFrameworkTemplate_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C0181C6DC97DB5CBE6F74 /* Pods-Framework-DGFrameworkTemplate-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-iOS/Pods-Framework-DGFrameworkTemplate-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		50395DAB28A88270387AAB05 /* Pods-DGFrameworkTemplate-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-OSX/Pods-DGFrameworkTemplate-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		512C204BAEFC30EFC2B60BF4 /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514FC3C90A0F98338B3944D9 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		51B1A7AF495456ADB391CD20 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		52BB6A669837BF35290E310D /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		576C8E0B90811D4A1FDBD355 /* Pods_Framework_DGFrameworkTemplate_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework_DGFrameworkTemplate_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5A9C2EDFA594A975D122F9 /* Pods-DGFrameworkTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-tvOS/Pods-DGFrameworkTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6174777C4D97A26C955AE8BC /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		6D1BCC4EF2EF5FEA2DD9C07D /* Pods-Framework-DGFrameworkTemplate-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-OSX/Pods-Framework-DGFrameworkTemplate-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		6DA7EE61CC6565E34194D504 /* Pods-Frameworks-DGFrameworkTemplate-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-iOS/Pods-Frameworks-DGFrameworkTemplate-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		72B7CB5DF5B6229310D4DB75 /* Pods_DGFrameworkTemplate_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743CE3B5536FD68FEE393434 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F02420920C697990A522EB /* Pods-DGFrameworkTemplate-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-watchOS/Pods-DGFrameworkTemplate-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		7C5CB00F9894560D888199AB /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837F532F40BE765C45E123F7 /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplate_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD9AC0429898A880C9B3317 /* Pods-Frameworks-DGFrameworkTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-tvOS/Pods-Frameworks-DGFrameworkTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8DA0083CA5E72BCB1059A66B /* Pods-Framework-DGFrameworkTemplate-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-watchOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-watchOS/Pods-Framework-DGFrameworkTemplate-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		947AD14F61B749FD0BB04F96 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		95DB5F9F9B476FC8A60CE850 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		96A5D41A654E55EA14016476 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		98121C7D06F9045C6273B592 /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E08F00D082853363E0C2E09 /* Pods_DGFrameworkTemplate_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A169356241C4D96A56C7606D /* Pods-Framework-DGFrameworkTemplate-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-watchOS/Pods-Framework-DGFrameworkTemplate-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A3169DB01DE05E8300BABAFD /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DB91DE05E8300BABAFD /* DGFrameworkTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGFrameworkTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,11 +115,33 @@
 		A3169E141DE072C800BABAFD /* DGFrameworkTemplateTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGFrameworkTemplateTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGFrameworkTemplate.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGFrameworkTemplateTests.swift; sourceTree = "<group>"; };
+		A659D0A1E2D37319B6D9B47D /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		A708025C7167A7EF3A207CEF /* Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-OSX/Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		A8901E6EC51FB445A6A14D34 /* Pods-DGFrameworkTemplate-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-tvOS/Pods-DGFrameworkTemplate-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AA487391710798A438711631 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		AB48CB187F54CDB76B300FC4 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_DGFrameworkTemplate_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30AF0766007D8750B42B961 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2CFB22820BF20E1BE7EBE6 /* Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-OSX/Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		BF458808AFFD2613C6E96BC5 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		C0AD9E6C2A91C3EA477DFDA6 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX/Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		CDD6A252A8693F5BEC42FF95 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF81A893ABAB38CF216CCEEB /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX/Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC5B10B02A772CB8346E034 /* Pods-Frameworks-DGFrameworkTemplate-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-iOS/Pods-Frameworks-DGFrameworkTemplate-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D57E6C707F250FFB5C65435F /* Pods-Framework-DGFrameworkTemplate-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-OSX/Pods-Framework-DGFrameworkTemplate-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		D776071E122693494B9F83DE /* Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-iOS/Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D7E8E8BFB690F976CA2A7C76 /* Pods-DGFrameworkTemplate-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-OSX/Pods-DGFrameworkTemplate-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		DD5250ABFACEF3D037F325BB /* Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-OSX/Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		E17A0A418556567DF3F89A30 /* Pods-Framework-DGFrameworkTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-DGFrameworkTemplate-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-DGFrameworkTemplate-tvOS/Pods-Framework-DGFrameworkTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E2D4533D19F6E7CF4D1C321F /* Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-tvOS/Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		E6172609921DF9DEE2B5BC15 /* Pods-Frameworks-DGFrameworkTemplate-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-OSX/Pods-Frameworks-DGFrameworkTemplate-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		E876A8254DE84D9510B7E68E /* Pods-DGFrameworkTemplate-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-watchOS/Pods-DGFrameworkTemplate-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAE5078BA36387E1C7BEB16 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS/Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B619F4FACEF965F693B46A /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS/Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F4A6E93591F7B679361C013F /* Pods_Framework_DGFrameworkTemplate_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework_DGFrameworkTemplate_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D627CA93F8F0067C996519 /* Pods_Framework_DGFrameworkTemplate_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Framework_DGFrameworkTemplate_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA5FD5BF0C05BFBE82F7DA /* Pods_DGFrameworkTemplate_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGFrameworkTemplate_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF519D4F08F654DE7150803 /* Pods-DGFrameworkTemplate-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplate-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplate-iOS/Pods-DGFrameworkTemplate-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE60028764ED4CF3D145870D /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_DGFrameworkTemplateTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40813137E3B49119812CED13 /* Pods_DGFrameworkTemplate_iOS.framework in Frameworks */,
+				F860DB1B689E3A2137B1FA0A /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169DBA1DE05E8300BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
+				D3B1029A523BCB0FD5FB4B3C /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8AEAC639DBED2A965AB286 /* Pods_DGFrameworkTemplate_watchOS.framework in Frameworks */,
+				0F4693548C561C4CA589F954 /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1810478DA855864A6A279310 /* Pods_DGFrameworkTemplate_tvOS.framework in Frameworks */,
+				9C037F3F63588F2D4D9E5F44 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169DF81DE0718900BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
+				352F8E02629FE8F0B93D657D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +191,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F4F3D69BE0D72AC1607491 /* Pods_DGFrameworkTemplate_OSX.framework in Frameworks */,
+				88767D1BDF119333B2969F6B /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3169E151DE072C800BABAFD /* DGFrameworkTemplate.framework in Frameworks */,
+				68000714EB04FE12144495AC /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +266,27 @@
 				3560547AA282DD83A7B33164 /* Pods_DGFrameworkTemplate_iOS.framework */,
 				72B7CB5DF5B6229310D4DB75 /* Pods_DGFrameworkTemplate_tvOS.framework */,
 				FADA5FD5BF0C05BFBE82F7DA /* Pods_DGFrameworkTemplate_watchOS.framework */,
+				837F532F40BE765C45E123F7 /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_OSX.framework */,
+				0484FE3ECB5C5B87407ABF2F /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_iOS.framework */,
+				4912F871B52ECCD87699C50A /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_tvOS.framework */,
+				211A41348921FF72C4D8BAD0 /* Pods_DGFrameworkTemplate_DGFrameworkTemplate_watchOS.framework */,
+				98121C7D06F9045C6273B592 /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework */,
+				7C5CB00F9894560D888199AB /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework */,
+				512C204BAEFC30EFC2B60BF4 /* Pods_DGFrameworkTemplate_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework */,
+				B30AF0766007D8750B42B961 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_OSX.framework */,
+				743CE3B5536FD68FEE393434 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_iOS.framework */,
+				CDD6A252A8693F5BEC42FF95 /* Pods_DGFrameworkTemplateTests_DGFrameworkTemplateTests_tvOS.framework */,
+				2B167A5B9C9FD8CCB80B9060 /* Pods_Framework_DGFrameworkTemplate_OSX.framework */,
+				F6D627CA93F8F0067C996519 /* Pods_Framework_DGFrameworkTemplate_iOS.framework */,
+				576C8E0B90811D4A1FDBD355 /* Pods_Framework_DGFrameworkTemplate_tvOS.framework */,
+				F4A6E93591F7B679361C013F /* Pods_Framework_DGFrameworkTemplate_watchOS.framework */,
+				2490F3AD368BDE4C67BD69BD /* Pods_Tests_DGFrameworkTemplateTests_OSX.framework */,
+				FE60028764ED4CF3D145870D /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework */,
+				1D22C66650C0EAD00C5F223D /* Pods_Tests_DGFrameworkTemplateTests_tvOS.framework */,
+				1F3A573CBDD2737F8B259724 /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework */,
+				4A180F0BFFE100DA1971D335 /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework */,
+				AB48CB187F54CDB76B300FC4 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework */,
+				2CCF393177F6409E026FE4CE /* Pods_Frameworks_DGFrameworkTemplate_watchOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -212,6 +302,48 @@
 				5A5A9C2EDFA594A975D122F9 /* Pods-DGFrameworkTemplate-tvOS.release.xcconfig */,
 				E876A8254DE84D9510B7E68E /* Pods-DGFrameworkTemplate-watchOS.debug.xcconfig */,
 				77F02420920C697990A522EB /* Pods-DGFrameworkTemplate-watchOS.release.xcconfig */,
+				CF81A893ABAB38CF216CCEEB /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.debug.xcconfig */,
+				C0AD9E6C2A91C3EA477DFDA6 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-OSX.release.xcconfig */,
+				2E7E721BCA0EF2D4EC0D39DD /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.debug.xcconfig */,
+				6174777C4D97A26C955AE8BC /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-iOS.release.xcconfig */,
+				52BB6A669837BF35290E310D /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.debug.xcconfig */,
+				F2B619F4FACEF965F693B46A /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-tvOS.release.xcconfig */,
+				95DB5F9F9B476FC8A60CE850 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.debug.xcconfig */,
+				514FC3C90A0F98338B3944D9 /* Pods-DGFrameworkTemplate-DGFrameworkTemplate-watchOS.release.xcconfig */,
+				BF458808AFFD2613C6E96BC5 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig */,
+				11BF61C70530EAC9576ABAC4 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig */,
+				EBAE5078BA36387E1C7BEB16 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig */,
+				AA487391710798A438711631 /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig */,
+				0264F3297A81061FFEF491EA /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */,
+				0EDFB920B5B443552018769A /* Pods-DGFrameworkTemplate-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig */,
+				2C064E1B66D05C013A3A276F /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.debug.xcconfig */,
+				A659D0A1E2D37319B6D9B47D /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig */,
+				4452FBA22E4D14DCF45C7DE4 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.debug.xcconfig */,
+				96A5D41A654E55EA14016476 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-iOS.release.xcconfig */,
+				51B1A7AF495456ADB391CD20 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */,
+				947AD14F61B749FD0BB04F96 /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-tvOS.release.xcconfig */,
+				D57E6C707F250FFB5C65435F /* Pods-Framework-DGFrameworkTemplate-OSX.debug.xcconfig */,
+				6D1BCC4EF2EF5FEA2DD9C07D /* Pods-Framework-DGFrameworkTemplate-OSX.release.xcconfig */,
+				2D7B0C277D4DACF59CC3388C /* Pods-Framework-DGFrameworkTemplate-iOS.debug.xcconfig */,
+				4D7C0181C6DC97DB5CBE6F74 /* Pods-Framework-DGFrameworkTemplate-iOS.release.xcconfig */,
+				06096CD81FE6581D44C7545C /* Pods-Framework-DGFrameworkTemplate-tvOS.debug.xcconfig */,
+				E17A0A418556567DF3F89A30 /* Pods-Framework-DGFrameworkTemplate-tvOS.release.xcconfig */,
+				A169356241C4D96A56C7606D /* Pods-Framework-DGFrameworkTemplate-watchOS.debug.xcconfig */,
+				8DA0083CA5E72BCB1059A66B /* Pods-Framework-DGFrameworkTemplate-watchOS.release.xcconfig */,
+				BD2CFB22820BF20E1BE7EBE6 /* Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig */,
+				DD5250ABFACEF3D037F325BB /* Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig */,
+				D776071E122693494B9F83DE /* Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig */,
+				41F127338C7A850CD2EEF4F5 /* Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig */,
+				486CAA196CD9ED1BD4FB196C /* Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */,
+				E2D4533D19F6E7CF4D1C321F /* Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig */,
+				A708025C7167A7EF3A207CEF /* Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig */,
+				E6172609921DF9DEE2B5BC15 /* Pods-Frameworks-DGFrameworkTemplate-OSX.release.xcconfig */,
+				CFC5B10B02A772CB8346E034 /* Pods-Frameworks-DGFrameworkTemplate-iOS.debug.xcconfig */,
+				6DA7EE61CC6565E34194D504 /* Pods-Frameworks-DGFrameworkTemplate-iOS.release.xcconfig */,
+				14E938AE7A9E60C8AF33C59B /* Pods-Frameworks-DGFrameworkTemplate-tvOS.debug.xcconfig */,
+				8CD9AC0429898A880C9B3317 /* Pods-Frameworks-DGFrameworkTemplate-tvOS.release.xcconfig */,
+				2F23369CB12119CE0B4CFCE3 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.debug.xcconfig */,
+				18F7939B36FDA0910AA59B34 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -279,9 +411,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3169DC71DE05E8300BABAFD /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateTests-iOS" */;
 			buildPhases = (
+				9230B7B1AECA727542936317 /* [CP] Check Pods Manifest.lock */,
 				A3169DB51DE05E8300BABAFD /* Sources */,
 				A3169DB61DE05E8300BABAFD /* Frameworks */,
 				A3169DB71DE05E8300BABAFD /* Resources */,
+				43763C6A7B0D7EC4A68FE07D /* [CP] Embed Pods Frameworks */,
+				929588168836F37746AE1E69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,9 +474,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3169E031DE0718900BABAFD /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateTests-tvOS" */;
 			buildPhases = (
+				750DC5D8819DAC156BEA4466 /* [CP] Check Pods Manifest.lock */,
 				A3169DF31DE0718900BABAFD /* Sources */,
 				A3169DF41DE0718900BABAFD /* Frameworks */,
 				A3169DF51DE0718900BABAFD /* Resources */,
+				6D42AA15C62E2FE77CB5AA4D /* [CP] Embed Pods Frameworks */,
+				A1261CEEE41A16116DE52075 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -378,9 +516,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3169E201DE072C800BABAFD /* Build configuration list for PBXNativeTarget "DGFrameworkTemplateTests-OSX" */;
 			buildPhases = (
+				9BA64278B6450646A4B98971 /* [CP] Check Pods Manifest.lock */,
 				A3169E101DE072C800BABAFD /* Sources */,
 				A3169E111DE072C800BABAFD /* Frameworks */,
 				A3169E121DE072C800BABAFD /* Resources */,
+				C144CFD87C29CD35CDF1D73F /* [CP] Embed Pods Frameworks */,
+				960FBD11D6DFA6CF1E39D927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -399,7 +540,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Digipolitan;
 				TargetAttributes = {
 					A3169DAF1DE05E8300BABAFD = {
@@ -544,7 +685,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGFrameworkTemplate-iOS/Pods-DGFrameworkTemplate-iOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-iOS/Pods-Frameworks-DGFrameworkTemplate-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43763C6A7B0D7EC4A68FE07D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-iOS/Pods-Tests-DGFrameworkTemplateTests-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D42AA15C62E2FE77CB5AA4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-tvOS/Pods-Tests-DGFrameworkTemplateTests-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750DC5D8819DAC156BEA4466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		80809BEA7E15CFA5A5B2109D /* [CP] Check Pods Manifest.lock */ = {
@@ -574,7 +760,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGFrameworkTemplate-tvOS/Pods-DGFrameworkTemplate-tvOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-tvOS/Pods-Frameworks-DGFrameworkTemplate-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9230B7B1AECA727542936317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		929588168836F37746AE1E69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-iOS/Pods-Tests-DGFrameworkTemplateTests-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960FBD11D6DFA6CF1E39D927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-OSX/Pods-Tests-DGFrameworkTemplateTests-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA64278B6450646A4B98971 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1261CEEE41A16116DE52075 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-tvOS/Pods-Tests-DGFrameworkTemplateTests-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A3169DD81DE0654400BABAFD /* Swiftlint */ = {
@@ -660,7 +921,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGFrameworkTemplate-watchOS/Pods-DGFrameworkTemplate-watchOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-watchOS/Pods-Frameworks-DGFrameworkTemplate-watchOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C144CFD87C29CD35CDF1D73F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-DGFrameworkTemplateTests-OSX/Pods-Tests-DGFrameworkTemplateTests-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CB48A42C75D7759FED22863F /* [CP] Copy Pods Resources */ = {
@@ -675,7 +951,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DGFrameworkTemplate-OSX/Pods-DGFrameworkTemplate-OSX-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-OSX/Pods-Frameworks-DGFrameworkTemplate-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFA65410B1988B5AD54C766A /* [CP] Check Pods Manifest.lock */ = {
@@ -790,13 +1066,13 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DYLIB_CURRENT_VERSION = 1.0.4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -843,13 +1119,13 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_CURRENT_VERSION = 1.0.4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -874,10 +1150,11 @@
 		};
 		A3169DC51DE05E8300BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBF519D4F08F654DE7150803 /* Pods-DGFrameworkTemplate-iOS.debug.xcconfig */;
+			baseConfigurationReference = CFC5B10B02A772CB8346E034 /* Pods-Frameworks-DGFrameworkTemplate-iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -893,10 +1170,11 @@
 		};
 		A3169DC61DE05E8300BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41A895CD0AD6C1CF5AEE8056 /* Pods-DGFrameworkTemplate-iOS.release.xcconfig */;
+			baseConfigurationReference = 6DA7EE61CC6565E34194D504 /* Pods-Frameworks-DGFrameworkTemplate-iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -912,9 +1190,10 @@
 		};
 		A3169DC81DE05E8300BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D776071E122693494B9F83DE /* Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -925,9 +1204,10 @@
 		};
 		A3169DC91DE05E8300BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F127338C7A850CD2EEF4F5 /* Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -938,10 +1218,11 @@
 		};
 		A3169DE41DE06EF400BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E876A8254DE84D9510B7E68E /* Pods-DGFrameworkTemplate-watchOS.debug.xcconfig */;
+			baseConfigurationReference = 2F23369CB12119CE0B4CFCE3 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -960,10 +1241,11 @@
 		};
 		A3169DE51DE06EF400BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77F02420920C697990A522EB /* Pods-DGFrameworkTemplate-watchOS.release.xcconfig */;
+			baseConfigurationReference = 18F7939B36FDA0910AA59B34 /* Pods-Frameworks-DGFrameworkTemplate-watchOS.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -982,9 +1264,10 @@
 		};
 		A3169E011DE0718900BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8901E6EC51FB445A6A14D34 /* Pods-DGFrameworkTemplate-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 14E938AE7A9E60C8AF33C59B /* Pods-Frameworks-DGFrameworkTemplate-tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1004,9 +1287,10 @@
 		};
 		A3169E021DE0718900BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5A9C2EDFA594A975D122F9 /* Pods-DGFrameworkTemplate-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8CD9AC0429898A880C9B3317 /* Pods-Frameworks-DGFrameworkTemplate-tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1025,9 +1309,10 @@
 		};
 		A3169E041DE0718900BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486CAA196CD9ED1BD4FB196C /* Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1040,9 +1325,10 @@
 		};
 		A3169E051DE0718900BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D4533D19F6E7CF4D1C321F /* Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1055,10 +1341,10 @@
 		};
 		A3169E1E1DE072C800BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50395DAB28A88270387AAB05 /* Pods-DGFrameworkTemplate-OSX.debug.xcconfig */;
+			baseConfigurationReference = A708025C7167A7EF3A207CEF /* Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1079,10 +1365,10 @@
 		};
 		A3169E1F1DE072C800BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7E8E8BFB690F976CA2A7C76 /* Pods-DGFrameworkTemplate-OSX.release.xcconfig */;
+			baseConfigurationReference = E6172609921DF9DEE2B5BC15 /* Pods-Frameworks-DGFrameworkTemplate-OSX.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1102,10 +1388,11 @@
 		};
 		A3169E211DE072C800BABAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2CFB22820BF20E1BE7EBE6 /* Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1118,10 +1405,11 @@
 		};
 		A3169E221DE072C800BABAFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5250ABFACEF3D037F325BB /* Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
