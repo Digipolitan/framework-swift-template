@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.4](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.4)
+
+update gitattributes
+
+---
+
 ## [1.1.3](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.3)
 
 remove ".rb" from gitattributes
