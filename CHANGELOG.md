@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.2](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.2)
+
+add gitattributes & update readme
+
+---
+
 ## [1.1.1](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.1)
 
 update fastfile
