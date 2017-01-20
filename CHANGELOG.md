@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.6](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.6)
+
+ignore files from github matcher
+
+---
+
 ## [1.1.5](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.5)
 
 add ruby files to Swift language
