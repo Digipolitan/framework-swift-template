@@ -1,3 +1,5 @@
 fastlane/* linguist-vendored
 *.rb linguist-language=Swift
-file$ linguist-language=Swift
+Podfile* linguist-language=Swift
+Gemfile linguist-language=Swift
+Brewfile linguist-language=Swift
