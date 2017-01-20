@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.1](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.1)
+
+update fastfile
+update travis & update wording
+
+---
+
 ## [1.1.0](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.0)
 
 Update the travis.yml
