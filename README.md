@@ -9,6 +9,22 @@ DGFrameworkTemplate
 
 ## Installation
 
+### Using digipolitan-framework-swift-template-cli
+
+```Shell
+gem install digipolitan-framework-swift-template-cli
+```
+
+And then execute the follow command
+
+```Shell
+dg-fst --init
+```
+
+Check all available options [here](https://github.com/Digipolitan/framework-swift-template-cli)
+
+### Manually
+
 First download the zip file and install bundler
 
 ```Shell
@@ -19,7 +35,7 @@ bundle install
 Then execute the **install.rb** and follow the instructions
 
 ```Shell
-ruby install.rb
+bundle exec ruby install.rb
 ```
 
 ## Features
@@ -36,18 +52,18 @@ ruby install.rb
 ## How to deploy ?
 
 First install deployment dependencies
-```shell
+```Shell
 bundle install && brew bundle
 ```
 
 Run the following lane to start a new release version on git :
-```shell
+```Shell
 fastlane start_framework_release
 ```
 This lane is a part of [Digipolitan lanes](https://github.com/Digipolitan/fastlane-ios-framework)
 
 Check if everything is OK, after that publish the new release version on git
-```shell
+```Shell
 fastlane publish_framework_release
 ```
 This lane is a part of [Digipolitan lanes](https://github.com/Digipolitan/fastlane-ios-framework)
