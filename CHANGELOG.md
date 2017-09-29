@@ -7,7 +7,9 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.8](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.8)
 
+travis osx image 9
 update to swift 4
+default framework build macOS 10.10
 update swiftlint
 
 ---
