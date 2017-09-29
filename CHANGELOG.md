@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.1.8](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.8)
+
+update to swift 4
+update swiftlint
+
+---
+
 ## [1.1.7](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.7)
 
 update gem
