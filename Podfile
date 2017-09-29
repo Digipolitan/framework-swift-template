@@ -16,7 +16,7 @@ abstract_target 'Frameworks' do
 	end
 
 	target 'DGFrameworkTemplate-OSX' do
-		platform :osx, '10.9'
+		platform :osx, '10.10'
 	end
 end
 
@@ -32,7 +32,7 @@ abstract_target 'Tests' do
 	end
 
 	target 'DGFrameworkTemplateTests-OSX' do
-		platform :osx, '10.9'
+		platform :osx, '10.10'
 	end
 end
 
@@ -62,6 +62,6 @@ abstract_target 'Samples' do
 
 	target 'DGFrameworkTemplateSample-OSX' do
 		project 'Samples/DGFrameworkTemplateSample-OSX/DGFrameworkTemplateSample-OSX'
-		platform :osx, '10.9'
+		platform :osx, '10.10'
 	end
 end
