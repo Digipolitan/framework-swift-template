@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.0](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.0)
+
+fix embed swift
+fix swift 4 support
+
+---
+
 ## [1.1.8](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.1.8)
 
 travis osx image 9
