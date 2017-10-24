@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.1](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.1)
+
+edit xcodeproj to update osx version to 10.10
+
+---
+
 ## [1.2.0](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.0)
 
 fix embed swift
