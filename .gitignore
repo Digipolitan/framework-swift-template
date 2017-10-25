@@ -73,3 +73,6 @@ Gemfile.lock
 # Environment normalization:
 /.bundle/
 /vendor/bundle
+
+# Mac files
+.DS_Store

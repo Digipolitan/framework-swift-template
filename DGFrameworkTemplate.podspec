@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "DGFrameworkTemplate"
-s.version      = "1.2.1"
+s.version      = "1.2.2"
 s.summary      = "Digipolitan framework swift template"
 s.homepage     = "https://github.com/Digipolitan/framework-swift-template"
 s.license      = { :type => "BSD", :file => "LICENSE" }
