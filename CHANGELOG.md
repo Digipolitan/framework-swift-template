@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.2](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.2)
+
+update .gitignore
+add .swift_version 4.0
+
+---
+
 ## [1.2.1](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.1)
 
 edit xcodeproj to update osx version to 10.10
