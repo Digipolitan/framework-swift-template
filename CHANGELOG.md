@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.4](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.4)
+
+update pbxproj
+move sources
+update spm & readme
+
+---
+
 ## [1.2.3](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.3)
 
 update travis
