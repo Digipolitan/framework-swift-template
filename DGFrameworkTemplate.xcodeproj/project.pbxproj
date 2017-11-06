@@ -21,7 +21,7 @@
 		A370DEBE1FB0995C000FEDED /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEB91FB0995C000FEDED /* TemplateClass.swift */; };
 		A370DEBF1FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC01FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A370DEC11FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; };
+		A370DEC11FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A370DEC21FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
 		A38EF2CB1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
