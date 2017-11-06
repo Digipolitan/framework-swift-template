@@ -1235,7 +1235,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D776071E122693494B9F83DE /* Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1249,7 +1248,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41F127338C7A850CD2EEF4F5 /* Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1354,7 +1352,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 486CAA196CD9ED1BD4FB196C /* Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1370,7 +1367,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2D4533D19F6E7CF4D1C321F /* Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1433,7 +1429,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD2CFB22820BF20E1BE7EBE6 /* Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1450,7 +1445,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD5250ABFACEF3D037F325BB /* Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
