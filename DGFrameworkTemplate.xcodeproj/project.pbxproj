@@ -13,19 +13,19 @@
 		88767D1BDF119333B2969F6B /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A573CBDD2737F8B259724 /* Pods_Frameworks_DGFrameworkTemplate_OSX.framework */; };
 		9C037F3F63588F2D4D9E5F44 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB48CB187F54CDB76B300FC4 /* Pods_Frameworks_DGFrameworkTemplate_tvOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* DGFrameworkTemplate.framework */; };
-		A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
-		A3169DE81DE06FD100BABAFD /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		A3169DF81DE0718900BABAFD /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* DGFrameworkTemplate.framework */; };
 		A3169E151DE072C800BABAFD /* DGFrameworkTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* DGFrameworkTemplate.framework */; };
-		A3169E761DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E771DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E791DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEBB1FB0995C000FEDED /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEB91FB0995C000FEDED /* TemplateClass.swift */; };
+		A370DEBC1FB0995C000FEDED /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEB91FB0995C000FEDED /* TemplateClass.swift */; };
+		A370DEBD1FB0995C000FEDED /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEB91FB0995C000FEDED /* TemplateClass.swift */; };
+		A370DEBE1FB0995C000FEDED /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DEB91FB0995C000FEDED /* TemplateClass.swift */; };
+		A370DEBF1FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEC01FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DEC11FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; };
+		A370DEC21FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
 		A38EF2CB1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
 		A38EF2CC1DECF97000637484 /* DGFrameworkTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */; };
-		A3EAC50C1DE5FCBA00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
-		A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3169DD41DE0631900BABAFD /* TemplateClass.swift */; };
 		D3B1029A523BCB0FD5FB4B3C /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60028764ED4CF3D145870D /* Pods_Tests_DGFrameworkTemplateTests_iOS.framework */; };
 		F860DB1B689E3A2137B1FA0A /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A180F0BFFE100DA1971D335 /* Pods_Frameworks_DGFrameworkTemplate_iOS.framework */; };
 /* End PBXBuildFile section */
@@ -107,13 +107,13 @@
 		A3169DB91DE05E8300BABAFD /* DGFrameworkTemplateTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGFrameworkTemplateTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DCC1DE0629100BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3169DD11DE062A000BABAFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3169DD41DE0631900BABAFD /* TemplateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateClass.swift; sourceTree = "<group>"; };
 		A3169DDE1DE06EF400BABAFD /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DEF1DE0718900BABAFD /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169DF71DE0718900BABAFD /* DGFrameworkTemplateTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGFrameworkTemplateTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* DGFrameworkTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGFrameworkTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* DGFrameworkTemplateTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DGFrameworkTemplateTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGFrameworkTemplate.h; sourceTree = "<group>"; };
+		A370DEB91FB0995C000FEDED /* TemplateClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateClass.swift; sourceTree = "<group>"; };
+		A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGFrameworkTemplate.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* DGFrameworkTemplateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGFrameworkTemplateTests.swift; sourceTree = "<group>"; };
 		A659D0A1E2D37319B6D9B47D /* Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX/Pods-DGFrameworkTemplateTests-DGFrameworkTemplateTests-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		A708025C7167A7EF3A207CEF /* Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-DGFrameworkTemplate-OSX/Pods-Frameworks-DGFrameworkTemplate-OSX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,8 +235,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A3169DD41DE0631900BABAFD /* TemplateClass.swift */,
-				A3169E751DE083D900BABAFD /* DGFrameworkTemplate.h */,
+				A370DEB81FB0995C000FEDED /* DGFrameworkTemplate */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -249,6 +248,15 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DEB81FB0995C000FEDED /* DGFrameworkTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A370DEB91FB0995C000FEDED /* TemplateClass.swift */,
+				A370DEBA1FB0995C000FEDED /* DGFrameworkTemplate.h */,
+			);
+			path = DGFrameworkTemplate;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* DGFrameworkTemplateTests */ = {
@@ -355,7 +363,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */,
+				A370DEC11FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +371,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E791DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */,
+				A370DEC21FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +379,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */,
+				A370DEBF1FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +387,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E771DE083D900BABAFD /* DGFrameworkTemplate.h in Headers */,
+				A370DEC01FB0995C000FEDED /* DGFrameworkTemplate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -999,7 +1007,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DD61DE0631900BABAFD /* TemplateClass.swift in Sources */,
+				A370DEBB1FB0995C000FEDED /* TemplateClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,7 +1023,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169DE81DE06FD100BABAFD /* TemplateClass.swift in Sources */,
+				A370DEBC1FB0995C000FEDED /* TemplateClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1023,7 +1031,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50D1DE5FCBB00E4AA5E /* TemplateClass.swift in Sources */,
+				A370DEBD1FB0995C000FEDED /* TemplateClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,7 +1047,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EAC50C1DE5FCBA00E4AA5E /* TemplateClass.swift in Sources */,
+				A370DEBE1FB0995C000FEDED /* TemplateClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1227,6 +1235,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D776071E122693494B9F83DE /* Pods-Tests-DGFrameworkTemplateTests-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1240,6 +1249,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41F127338C7A850CD2EEF4F5 /* Pods-Tests-DGFrameworkTemplateTests-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1344,6 +1354,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 486CAA196CD9ED1BD4FB196C /* Pods-Tests-DGFrameworkTemplateTests-tvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1359,6 +1370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2D4533D19F6E7CF4D1C321F /* Pods-Tests-DGFrameworkTemplateTests-tvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1421,6 +1433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BD2CFB22820BF20E1BE7EBE6 /* Pods-Tests-DGFrameworkTemplateTests-OSX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1437,6 +1450,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD5250ABFACEF3D037F325BB /* Pods-Tests-DGFrameworkTemplateTests-OSX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
