@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.5](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.5)
+
+migrate to swift 4.2
+
+---
+
 ## [1.2.4](https://github.com/Digipolitan/framework-swift-template/releases/tag/v1.2.4)
 
 update pbxproj
