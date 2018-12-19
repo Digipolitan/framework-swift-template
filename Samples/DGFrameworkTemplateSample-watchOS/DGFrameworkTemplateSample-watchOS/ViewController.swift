@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let t = TemplateClass()
-        print("iOS \(t)")
+        let template = TemplateClass()
+        print("iOS \(template)")
     }
 }
