@@ -12,7 +12,7 @@ class DGFrameworkTemplateTests: XCTestCase {
     }
 
     func testDescription() {
-        let t = TemplateClass()
-        XCTAssertEqual(t.description, "TemplateDescription")
+        let template = TemplateClass()
+        XCTAssertEqual(template.description, "TemplateDescription")
     }
 }

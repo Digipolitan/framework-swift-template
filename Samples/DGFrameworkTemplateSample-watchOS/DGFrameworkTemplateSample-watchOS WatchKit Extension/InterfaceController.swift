@@ -14,8 +14,8 @@ class InterfaceController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        let t = TemplateClass()
-        print("watchOS \(t)")
+        let template = TemplateClass()
+        print("watchOS \(template)")
     }
 
     override func willActivate() {
